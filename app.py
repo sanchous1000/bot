@@ -8,14 +8,14 @@ from flask import Flask, jsonify, request, render_template
 from oaiv.core.account import InteractionFunctionality
 from oaiv.tools.utils import format_provider, format_w3
 
-#Добавляем модуль
+
 from logginger import Logging as logg
 
-#
+
 from hub import Hub
 from logginer import logg
 import pandas
-#
+
 load_dotenv()
 
 ETHEREUM_NETWORK = os.getenv('ETHEREUM_NETWORK')
