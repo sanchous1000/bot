@@ -41,4 +41,4 @@ class Logging:
                    datetime.datetime.utcnow().replace(tzinfo=pytz.utc).isoformat())
         self.conn_log.execute(text(query))
 
-# TODO: add text file
+
